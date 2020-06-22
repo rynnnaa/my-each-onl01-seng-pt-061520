@@ -1,3 +1,5 @@
-def my_each # put argument(s) here
-  # code here
+def my_each
+  while i = 0
+  yield(i) {i + 1 = i}
+  
 end
